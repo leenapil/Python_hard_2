@@ -15,7 +15,7 @@ class Student:
         print("성별은 {} 이다.".format(self.sex))
         print("주소는 {} 이다.".format(self.address))
         print("전화번호는 {} 이다.".format(self.phone_number))
-        if self.year == 1:
+        if self.year == "1":
             print("멋사 1년차")
             print("우와 아기사자다 !")
         else:
@@ -24,7 +24,7 @@ class Student:
 
 
     while True:
-        Class_name = str(input("객체 명을 입력하시오. (단,영문으로) : "))
+        Class_name = input("객체 명을 입력하시오. (단,영문으로) : ")
         if Class_name == "종료":
             break
         
@@ -33,7 +33,7 @@ class Student:
         student_number = int(input("학번을 입력하시오. (단,숫자로) : "))
         sex = str(input("성별을 입력하시오. (모를 땐 모른다 라고 입력) : "))
         if sex == "모른다":
-           sex == "None"
+           sex = "None"
         address = str(input("주소를 입력하시오. (~시까지만) : "))
         phone_number =  input("전화번호를 입력하시오. (모를 땐 모른다 라고 입력) : ")
         if phone_number == "모른다":
