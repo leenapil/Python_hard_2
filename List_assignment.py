@@ -1,14 +1,9 @@
 List = []
 
 # 첫 번째 반복문
-for a in range(1,16):
-    a = int(input("1부터 15까지 중에서 정수를 입력해주세요 > "))
-    if a == 0 or a > 15:
-        print(" -- 정수 범위에 맞게 다시 입력해주세요 -- ")
-    while True:
-        if 0 < a < 16:
-            List.append(a)
-        break
+for a in range(0,15):
+    a = int(input("원하는 정수를 입력해주세요 > "))
+    List.append(a)
 print(List)
 
 # 두 번째 반복문
