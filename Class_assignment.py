@@ -37,7 +37,7 @@ class Student:
             print("None")
         year = int(input("멋사 몇년차인가요? (단,숫자로) : "))
         print("이름은 {} 이다.".format(name))
-        print("학년은 {} 이다.".format(grade))
+        print("학년은 {} 학년이다.".format(grade))
         print("학번은 {} 이다.".format(student_number))
         print("성별은 {} 이다.".format(sex))
         print("주소는 {} 이다.".format(address))
